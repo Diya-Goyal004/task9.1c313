@@ -1,0 +1,78 @@
+/* Header.css */
+
+.navbar {
+  background-color: #267a3a;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.company-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+#search-input {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  width: 140vh;
+  height: 25px;
+}
+/*
+#login-button, #post-button {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}*/
+
+#login-button {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px; /* Add margin to the right to separate it from the next button */
+  height: 40px;
+  width: 120px;
+
+}
+#signout-button {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px; /* Add margin to the right to separate it from the next button */
+  height: 40px;
+  width: 120px;
+}
+
+#post-button {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 20px;
+  width: 120px;
+  height: 40px;
+}
+
+#login-button:hover, #post-button:hover {
+  background-color: #003f80;
+}
